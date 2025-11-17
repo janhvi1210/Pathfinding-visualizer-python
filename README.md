@@ -1,32 +1,28 @@
-# Pathfinding Visualizer — A* & DFS
+# Pathfinding Visualizer 🚗🗺️
 
-An interactive Python application that visualizes how A* and DFS (Backtracking) algorithms navigate through a grid with obstacles.
-The project uses Matplotlib animations to show each step of the pathfinding process, including real-time movement, trail drawing, and algorithm switching.
+A simple and interactive pathfinding visualizer built with Python, Matplotlib, and NumPy.
+It compares how A* and DFS (Backtracking) algorithms navigate through a grid with obstacles using smooth animations.
 
 ## ✨ Features
 
-🔍 A* Search Algorithm (optimal pathfinding)
+Visualize A* and DFS algorithms
 
-🔄 DFS Backtracking (exploratory pathfinding)
+Animated movement with step counter
 
-🎥 Animated step-by-step visualization
+Obstacle-filled grid environment
 
-🚧 Obstacle-based grid environment
+Start and goal markers
 
-🔘 Interactive “Next Algorithm” button
+Button to switch between algorithms
 
-🏁 Start & Goal marker visualization
+Clean and easy-to-understand visualization
 
-📊 Step counter for animation progress
-
-### 🛠️ Tech Stack
+## 🛠️ Technologies Used
 
 Python
 
-Matplotlib — grid + animation
+Matplotlib
 
-NumPy — grid representation
+NumPy
 
-Heapq — priority queue for A*
-
-OOP-friendly structure
+Heapq (Priority Queue)
